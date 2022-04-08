@@ -1,0 +1,33 @@
+1.  touch .gitignore
+
+2.  git config global user.name Fahim-Rashid-Karmi
+
+3.  got config global user.email "fahimrashid1122@gmail.com"
+"it all Optional"it will make a txt file in which you will mention all that files and folder which you don't want to add in your git repository 
+4.  git init
+this coomand will make the folder as a git repository and ready to go to the next stage
+5.  git add .
+it will add all the files and folder excepting the ignore files into staging area 
+6.  git commit -m "Intial commit"
+7.  git status 
+its also optional if you want to see where in the stage your folder is "working clean"
+8.  ssh-keygen -t rsa -b 4096 -C "fahimrashid1122@gmail.com"
+it will produce the ssh key which will use to give the access permission to our pc with git repository 
+
+9.  tail <path to id-rsa.pub> 
+its to add this key to your github account
+
+
+to update the git
+make 3 command
+1. git status //to see your repository status
+2. git add .
+3. git commit -m "your message obout whats gona update"
+4. git push origin master
+
+// done update
+
+
+10. git remote add origin <ssh url.git>
+
+11. git push origin master
